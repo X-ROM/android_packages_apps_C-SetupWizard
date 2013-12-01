@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">설치 마법사</string>
+    <string name="our_name">ThinkingBridge OS</string>
+    
+    <string name="done">완료</string>
+    
+    <string name="page_next">다음</string>
+    
+    <string name="page_welcome_title">환영합니다!</string>
+    <string name="page_welcome_summary">user\n\nTo get started setting up your device, select your language and continue</string>
+    
+    <string name="page_im_title">키보드 설정</string>
+    <string name="page_im_summary">키보드 설정후 설정하세요.</string>
+    <string name="page_im_none">키보드가 설치되어있지 않습니다.</string>
+    
+    <string name="page_network_title">네트워크 설정</string>
+    <string name="page_network_summary">네트워크를 설정하세요.</string>
+    <string name="page_network_pref_wifi_toggle">wi-fi 활성화</string>
+    <string name="page_network_pref_data_toggle">데이터 활성화</string>
+    <string name="page_network_pref_gps_toggle">GPS 활성화</string>
+    <string name="page_network_pref_datetime_preset">Date and Time will automatic sync with enabled network</string>
+    
+    <string name="page_finish_title">설정완료</string>
+    <string name="page_finish_summary">축하드림나래!설정완료!즐기세여</string>
+    
+</resources>
