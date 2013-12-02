@@ -41,6 +41,7 @@ public class WelcomePage extends Fragment {
         return view;
     }
 
+    // If you have Nexus 5 model.welcome page say Hello Nexus5 User :)
     private void initView() {
         String model = Build.MODEL;
         String originText = " " + mTextView.getText().toString();

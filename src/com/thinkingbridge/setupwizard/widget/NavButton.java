@@ -20,7 +20,7 @@ public class NavButton extends Button {
 
             @Override
             public void onClick(View v) {
-                Log.e("BridgeLove", "onclick");
+                Log.e("WoorimLove", "onclick");
                 ((MainActivity) mContext).goNextPage();
 
             }

@@ -8,7 +8,6 @@ import android.app.StatusBarManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
@@ -35,10 +34,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final boolean isDebuging = true;
-
     private static final String TAG = "setupwizard";
-    private static final String BOOT_KEY = "boot_key";
     private static final String GOOGLE_SETUPWIZARD_PACKAGE = "com.google.android.setupwizard";
 
     private Interpolator sInterpolator;
@@ -81,18 +77,9 @@ public class MainActivity extends Activity {
     }
 
     private void checkInit() {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        int version = prefs.getInt(BOOT_KEY, 0);
-        // if (version == 0) { // First init,record it.
-        if (isDebuging) {
-            prefs.edit().putInt(BOOT_KEY, 1).commit();
-            int flag = WindowManager.LayoutParams.FLAG_FULLSCREEN;
-            Window window = MainActivity.this.getWindow();
-            window.setFlags(flag, flag);
-        } else {
-            Log.e(TAG, "Already jinhong,TokTak");
-            MainActivity.this.finish();
-        }
+    	int flag = WindowManager.LayoutParams.FLAG_FULLSCREEN;
+    	Window window = MainActivity.this.getWindow();
+    	window.setFlags(flag, flag);
     }
 
     public boolean isFirstPage() {
