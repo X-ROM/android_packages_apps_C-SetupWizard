@@ -37,7 +37,7 @@ public class NavButton extends Button {
 
             @Override
             public void onClick(View v) {
-                Log.e("WoorimLove", "onclick");
+                Log.d("WoorimLove", "onclick");
                 ((MainActivity) mContext).goNextPage();
 
             }

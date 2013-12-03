@@ -27,12 +27,14 @@
             android:excludeFromRecents="true"
             android:immersive="true"
             android:label="@string/app_name"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor" >
             <intent-filter android:priority="1000" >
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.DEVICE_INITIALIZATION_WIZARD" />
 
                 <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
