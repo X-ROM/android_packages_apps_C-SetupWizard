@@ -53,6 +53,7 @@ public class InputMethodPage extends Fragment {
     private RadioGroup mImGroup;
 
     private String mEnabledIM;
+    private String mDefaultIM;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -72,6 +73,8 @@ public class InputMethodPage extends Fragment {
         
         mEnabledIM = Settings.Secure.getString(mContext.getContentResolver(),
                 Settings.Secure.ENABLED_INPUT_METHODS);
+        mDefaultIM = Settings.Secure.getString(mContext.getContentResolver(),
+                Settings.Secure.DEFAULT_INPUT_METHOD);
 
         int count = (infoList == null ? 0 : infoList.size());
 
@@ -94,6 +97,7 @@ public class InputMethodPage extends Fragment {
             RadioButton button = new RadioButton(mContext);
             button.setText(mImList.get(i).getImLabel());
             button.setTag(mImList.get(i).getImPackage());
+            button.setChecked(mImList.get(i).getImPackage().equals(mDefaultIM));
             button.setOnCheckedChangeListener(checkedListener);
             mImGroup.addView(button);
         }
@@ -112,16 +116,18 @@ public class InputMethodPage extends Fragment {
                 Settings.Secure.putString(mContext.getContentResolver(),
                         Settings.Secure.ENABLED_INPUT_METHODS, mEnabledIM
                                 + ":" + defaultTag);
-                ((MainActivity) getActivity()).goNextPage();
+                //((MainActivity) getActivity()).goNextPage();
             }
 
         }
 
     }
 
-    @Override
+    /**
+     @Override
     public void onResume() {
         Log.e("WoorimLove", "resume");
         super.onResume();
     }
+     **/
 }
