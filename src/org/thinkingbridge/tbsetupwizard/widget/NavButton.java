@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard.widget;
+package org.thinkingbridge.tbsetupwizard.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -24,7 +24,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.thinkingbridge.setupwizard.MainActivity;
+import org.thinkingbridge.tbsetupwizard.MainActivity;
 
 public class NavButton extends Button {
 

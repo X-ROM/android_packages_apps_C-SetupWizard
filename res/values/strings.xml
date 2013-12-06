@@ -9,8 +9,8 @@
 
 <resources>
 
-    <string name="app_name">SetupWizard</string>
-    <string name="our_name">ThinkingBridge OS</string>
+    <string name="app_name">ThinkingBridge SetupWizard</string>
+    <string name="our_name">ThinkingBridge</string>
     
     <string name="done">Done</string>
     
@@ -31,6 +31,6 @@
     <string name="page_network_pref_datetime_preset">Date and Time will automatic sync with enabled network</string>
     
     <string name="page_finish_title">Setup Completed</string>
-    <string name="page_finish_summary">Congratulations!Setup has been completed,now you can enjoy!</string>
+    <string name="page_finish_summary">Congratulations! Setup has been completed,now you can enjoy the ThinkingBridge!</string>
     
 </resources>

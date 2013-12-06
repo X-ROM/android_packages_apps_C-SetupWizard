@@ -44,7 +44,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="20dp" />
 
-        <com.thinkingbridge.setupwizard.widget.NavButton
+        <org.thinkingbridge.tbsetupwizard.widget.NavButton
             style="@style/NavigationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

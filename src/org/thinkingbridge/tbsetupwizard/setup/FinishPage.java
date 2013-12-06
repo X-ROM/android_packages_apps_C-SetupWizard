@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard.setup;
+package org.thinkingbridge.tbsetupwizard.setup;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.thinkingbridge.setupwizard.R;
+import org.thinkingbridge.tbsetupwizard.R;
 
 public class FinishPage extends Fragment {
 

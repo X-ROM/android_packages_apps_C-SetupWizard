@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard.setup;
+package org.thinkingbridge.tbsetupwizard.setup;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -36,9 +36,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.thinkingbridge.setupwizard.MainActivity;
-import com.thinkingbridge.setupwizard.R;
-import com.thinkingbridge.setupwizard.widget.InputMethodItem;
+import org.thinkingbridge.tbsetupwizard.MainActivity;
+import org.thinkingbridge.tbsetupwizard.R;
+import org.thinkingbridge.tbsetupwizard.widget.InputMethodItem;
 
 import java.util.ArrayList;
 import java.util.List;

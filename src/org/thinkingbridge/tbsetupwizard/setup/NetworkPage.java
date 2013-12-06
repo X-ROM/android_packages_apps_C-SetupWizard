@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard.setup;
+package org.thinkingbridge.tbsetupwizard.setup;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -40,8 +40,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
-import com.thinkingbridge.setupwizard.MainActivity;
-import com.thinkingbridge.setupwizard.R;
+import org.thinkingbridge.tbsetupwizard.MainActivity;
+import org.thinkingbridge.tbsetupwizard.R;
 
 public class NetworkPage extends Fragment {
 

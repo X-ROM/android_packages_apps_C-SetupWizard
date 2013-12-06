@@ -37,7 +37,7 @@
             android:text="@string/page_finish_summary"
             android:textAppearance="@style/Content" />
         
-        <com.thinkingbridge.setupwizard.widget.NavButton
+        <org.thinkingbridge.tbsetupwizard.widget.NavButton
             style="@style/NavigationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard;
+package org.thinkingbridge.tbsetupwizard;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -39,11 +39,11 @@ import android.view.WindowManager;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import com.thinkingbridge.setupwizard.setup.FinishPage;
-import com.thinkingbridge.setupwizard.setup.InputMethodPage;
-import com.thinkingbridge.setupwizard.setup.NetworkPage;
-import com.thinkingbridge.setupwizard.setup.WelcomePage;
-import com.thinkingbridge.setupwizard.widget.FixedSpeedScroller;
+import org.thinkingbridge.tbsetupwizard.setup.FinishPage;
+import org.thinkingbridge.tbsetupwizard.setup.InputMethodPage;
+import org.thinkingbridge.tbsetupwizard.setup.NetworkPage;
+import org.thinkingbridge.tbsetupwizard.setup.WelcomePage;
+import org.thinkingbridge.tbsetupwizard.widget.FixedSpeedScroller;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final String TAG = "setupwizard";
+    private static final String TAG = "tbsetupwizard";
     private static final String GOOGLE_SETUPWIZARD_PACKAGE = "com.google.android.setupwizard";
 
     private Interpolator sInterpolator;

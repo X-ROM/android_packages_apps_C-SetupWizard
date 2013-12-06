@@ -16,7 +16,7 @@
  *
  */
 
-package com.thinkingbridge.setupwizard.setup;
+package org.thinkingbridge.tbsetupwizard.setup;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -34,8 +34,8 @@ import android.widget.TextView;
 
 import com.android.internal.app.LocalePicker;
 import com.android.internal.app.LocalePicker.LocaleInfo;
-import com.thinkingbridge.setupwizard.MainActivity;
-import com.thinkingbridge.setupwizard.R;
+import org.thinkingbridge.tbsetupwizard.MainActivity;
+import org.thinkingbridge.tbsetupwizard.R;
 
 import java.util.Locale;
 
