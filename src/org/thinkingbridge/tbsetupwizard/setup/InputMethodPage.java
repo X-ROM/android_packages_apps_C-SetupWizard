@@ -97,9 +97,11 @@ public class InputMethodPage extends Fragment {
             RadioButton button = new RadioButton(mContext);
             button.setText(mImList.get(i).getImLabel());
             button.setTag(mImList.get(i).getImPackage());
-            button.setChecked(mImList.get(i).getImPackage().equals(mDefaultIM));
             button.setOnCheckedChangeListener(checkedListener);
             mImGroup.addView(button);
+            if (mImList.get(i).getImPackage().equals(mDefaultIM)) {
+            	mImGroup.check(mImGroup.getChildAt(i).getId());
+            }
         }
 
         return view;
