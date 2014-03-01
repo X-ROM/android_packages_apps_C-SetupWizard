@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="19"
         android:targetSdkVersion="19" />
 
     <application
