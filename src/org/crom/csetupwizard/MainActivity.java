@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The ThinkingBridge Project
+ *  Copyright (C) 2014 The C-RoM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard;
+package org.crom.csetupwizard;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -39,11 +39,11 @@ import android.view.WindowManager;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import org.thinkingbridge.tbsetupwizard.setup.FinishPage;
-import org.thinkingbridge.tbsetupwizard.setup.InputMethodPage;
-import org.thinkingbridge.tbsetupwizard.setup.NetworkPage;
-import org.thinkingbridge.tbsetupwizard.setup.WelcomePage;
-import org.thinkingbridge.tbsetupwizard.widget.FixedSpeedScroller;
+import org.crom.csetupwizard.setup.FinishPage;
+import org.crom.csetupwizard.setup.InputMethodPage;
+import org.crom.csetupwizard.setup.NetworkPage;
+import org.crom.csetupwizard.setup.WelcomePage;
+import org.crom.csetupwizard.widget.FixedSpeedScroller;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final String TAG = "tbsetupwizard";
+    private static final String TAG = "csetupwizard";
     private static final String GOOGLE_SETUPWIZARD_PACKAGE = "com.google.android.setupwizard";
 
     private Interpolator sInterpolator;

@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The ThinkingBridge Project
+ *  Copyright (C) 2014 The C-RoM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard.setup;
+package org.crom.csetupwizard.setup;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -40,8 +40,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
-import org.thinkingbridge.tbsetupwizard.MainActivity;
-import org.thinkingbridge.tbsetupwizard.R;
+import org.crom.csetupwizard.MainActivity;
+import org.crom.csetupwizard.csetupwizard.R;
 
 public class NetworkPage extends Fragment {
 

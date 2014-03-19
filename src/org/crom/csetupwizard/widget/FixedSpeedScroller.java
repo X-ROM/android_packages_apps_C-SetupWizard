@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The ThinkingBridge Project
+ *  Copyright (C) 2014 The C-RoM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard.widget;
+package org.crom.csetupwizard.widget;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

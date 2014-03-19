@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 ThinkingBridge Project
+<!-- Copyright (C) 2014 The C-RoM Project
 
      Licensed under the GNU GPLv2 license
 
@@ -59,7 +59,7 @@
             android:layout_marginLeft="8dp"
             android:text="@string/page_network_pref_gps_toggle" />
 
-        <org.thinkingbridge.tbsetupwizard.widget.NavButton
+        <org.crom.csetupwizard.widget.NavButton
             style="@style/NavigationButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard.widget;
+package org.crom.csetupwizard.widget;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

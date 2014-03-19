@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 ThinkingBridge Project
+<!-- Copyright (C) 2014 The C-RoM Project
 
      Licensed under the GNU GPLv2 license
 
@@ -9,14 +9,14 @@
 
 <resources>
 
-    <string name="app_name">ThinkingBridge SetupWizard</string>
-    <string name="our_name">ThinkingBridge</string>
+    <string name="app_name">C-RoM SetupWizard</string>
+    <string name="our_name">C-RoM</string>
     
     <string name="done">Done</string>
     
     <string name="page_next">Next></string>
     
-    <string name="page_welcome_title">Welcome To ThinkingBridge</string>
+    <string name="page_welcome_title">Welcome To C-RoM</string>
     <string name="page_welcome_summary">user\n\nTo get started setting up your device, select your language and continue</string>
     
     <string name="page_im_title">Keyboard Set Up</string>
@@ -31,6 +31,6 @@
     <string name="page_network_pref_datetime_preset">Date and Time will automatic sync with enabled network</string>
     
     <string name="page_finish_title">Setup Completed</string>
-    <string name="page_finish_summary">Congratulations! Setup has been completed,now you can enjoy the ThinkingBridge!</string>
+    <string name="page_finish_summary">Congratulations! Setup has been completed,now you can enjoy the C-RoM!</string>
     
 </resources>

@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The ThinkingBridge Project
+ *  Copyright (C) 2014 The C-RoM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard.setup;
+package org.crom.csetupwizard.setup;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -36,9 +36,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import org.thinkingbridge.tbsetupwizard.MainActivity;
-import org.thinkingbridge.tbsetupwizard.R;
-import org.thinkingbridge.tbsetupwizard.widget.InputMethodItem;
+import org.crom.csetupwizard.MainActivity;
+import org.crom.csetupwizard.R;
+import org.crom.csetupwizard.widget.InputMethodItem;
 
 import java.util.ArrayList;
 import java.util.List;

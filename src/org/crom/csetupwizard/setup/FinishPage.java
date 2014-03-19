@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2013 The ThinkingBridge Project
+ *  Copyright (C) 2014 The C-RoM Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package org.thinkingbridge.tbsetupwizard.setup;
+package org.crom.csetupwizard.setup;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.thinkingbridge.tbsetupwizard.R;
+import org.crom.csetupwizard.R;
 
 public class FinishPage extends Fragment {
 
