@@ -41,7 +41,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
 import org.crom.csetupwizard.MainActivity;
-import org.crom.csetupwizard.csetupwizard.R;
+import org.crom.csetupwizard.R;
 
 public class NetworkPage extends Fragment {
 
